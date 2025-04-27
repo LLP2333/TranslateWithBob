@@ -2,7 +2,7 @@
 
   "description": "Translate text with Bob",
   "manifest_version": 3,
-  "name": "Translate with Bob",
+  "name": "Translate With Bob",
   "version": "1.0",
   "icons": {
     "48": "icons/message.png"
