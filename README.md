@@ -1,4 +1,4 @@
-# 翻译助手
+# Translate with Bob
 用来在chrome网页调用bob翻译实现划词翻译
 ## 注意
 使用时请确保bob翻译已经启动,不建议将项目放到下载目录、文档目录,仅支持MacOS系统
