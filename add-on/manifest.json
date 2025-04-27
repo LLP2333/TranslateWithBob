@@ -1,0 +1,37 @@
+{
+
+  "description": "Translate text with Bob",
+  "manifest_version": 3,
+  "name": "Translate with Bob",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/message.png"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "translate_server@qvqw.date",
+      "strict_min_version": "79.0"
+    }
+  },
+
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+
+  "action": {
+    "default_icon": "icons/message.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+
+  "permissions": ["nativeMessaging"]
+
+}

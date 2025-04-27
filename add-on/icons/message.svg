@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+<style type="text/css">
+<![CDATA[
+	.background{fill:#4285F4;}
+	.bubble{fill:#FFFFFF;}
+	.text{fill:#4285F4;}
+]]>
+</style>
+<defs/>
+<!-- 主背景圆形 -->
+<circle class="background" cx="64" cy="64" r="60"/>
+<!-- 对话气泡 -->
+<path class="bubble" d="M96,45c0-8.8-7.2-16-16-16H36c-8.8,0-16,7.2-16,16v25c0,8.8,7.2,16,16,16h4v14c0,1.6,1,3.1,2.5,3.7
+c1.5,0.6,3.2,0.2,4.3-0.9l16.8-16.8H80c8.8,0,16-7.2,16-16V45z"/>
+<!-- 翻译符号 - T和箭头 -->
+<g class="text">
+  <!-- T字母 -->
+  <path d="M48,50h20v-6H28v6h20v26h-6v6h24v-6h-6V50z"/>
+  <!-- 箭头 -->
+  <path d="M85,66l-8-8v6h-8v4h8v6L85,66z"/>
+  <path d="M69,54l8,8v-6h8v-4h-8v-6L69,54z"/>
+</g>
+</svg>
