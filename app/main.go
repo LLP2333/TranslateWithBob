@@ -8,6 +8,7 @@ import (
 	"log"
 	"os"
 	"os/exec"
+	"strings"
 )
 
 // 控制是否开启日志的常量
@@ -35,7 +36,10 @@ func escapeText(text string) string {
 	// 转义文本中的特殊字符，防止注入
 	bytes, _ := json.Marshal(text)
 	escaped := string(bytes)
-	return escaped[1 : len(escaped)-1] // 去掉首尾的引号
+	// 去掉首尾的引号并移除单引号
+	processed := escaped[1 : len(escaped)-1]
+	processed = strings.Replace(processed, "'", "", -1)
+	return processed
 }
 
 func translateWithBob(text string) {
