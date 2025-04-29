@@ -3,6 +3,11 @@
 [English](README_EN.md) | 中文
 
 用来在chrome网页调用bob翻译实现划词翻译
+## 效果
+
+![first](img/first.png)
+![second](img/second.png)
+
 ## 注意
 使用时请确保bob翻译已经启动,不建议将项目放到下载目录、文档目录,仅支持MacOS系统
 ## 加载插件

@@ -4,6 +4,11 @@ English | [中文](README.md)
 
 A Chrome extension that enables text selection translation by calling Bob translation app.
 
+## Effect
+
+![first](img/first.png)
+![second](img/second.png)
+
 ## Note
 Please ensure Bob translation app is running. Not recommended to place the project in Downloads or Documents directories. Only supports MacOS systems.
 
