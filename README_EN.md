@@ -13,7 +13,10 @@ A Chrome extension that enables text selection translation by calling Bob transl
 Please ensure Bob translation app is running. Not recommended to place the project in Downloads or Documents directories. Only supports MacOS systems.
 
 ## Loading the Extension
-Enable developer mode in Chrome browser extensions and select the add-on folder.
+Two methods
+### Install plug-in from Chrome Web Store [Click to Install](https://chromewebstore.google.com/detail/translate-with-bob/oaknpfbbebnpkhfnckphnenmhnnmaifj)
+
+### Enable Developer Mode in Chrome browser and select the add-on folder
 
 ## Ensure Path Exists (Create if Not)
 ```

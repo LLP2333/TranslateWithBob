@@ -11,7 +11,9 @@
 ## 注意
 使用时请确保bob翻译已经启动,不建议将项目放到下载目录、文档目录,仅支持MacOS系统
 ## 加载插件
-chrome浏览器插件开启开启开发者模式选择add-on文件夹
+两种方式
+### 访问chrome应用商店安装插件 [点击安装](https://chromewebstore.google.com/detail/translate-with-bob/oaknpfbbebnpkhfnckphnenmhnnmaifj)
+### chrome浏览器插件开启开启开发者模式选择add-on文件夹
 
 ## 确保路径存在(没有请创建)
 ```
