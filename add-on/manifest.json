@@ -3,16 +3,9 @@
   "description": "Translate text with Bob",
   "manifest_version": 3,
   "name": "Translate With Bob",
-  "version": "1.0",
+  "version": "1.1",
   "icons": {
     "48": "icons/message.png"
-  },
-
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "translate_server@qvqw.date",
-      "strict_min_version": "79.0"
-    }
   },
 
   "background": {

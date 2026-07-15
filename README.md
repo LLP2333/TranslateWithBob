@@ -36,10 +36,10 @@ allowed_origins为也要根据浏览器插件的id进行修改
 cp app/translate_server.json ~/Library/Application\ Support/Google/Chrome/NativeMessagingHosts/
 ```
 ## 补充
-app/main.go的 
+app/main.go的
 ```text
 enableLogging控制是否开启日志
-logFilePath控制日志路径
-```text
+开启后日志写入 ~/translate_server.log
+```
 默认不开启日志
 

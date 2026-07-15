@@ -44,6 +44,6 @@ cp app/translate_server.json ~/Library/Application\ Support/Google/Chrome/Native
 In app/main.go:
 ```
 enableLogging controls whether logging is enabled
-logFilePath controls the log file path
+When enabled, logs are written to ~/translate_server.log
 ```
 Logging is disabled by default. 
